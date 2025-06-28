@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for layout adjustments */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+
+.main-content-area {
+  transition: margin-left 0.3s ease-in-out; /* Smooth transition for content shift */
+}
+
+/*  Inter font (linked in HTML head) */
+body {
+  font-family: 'Inter', sans-serif;
+}
