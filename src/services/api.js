@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://pfm-backend-0qd8.onrender.com/";
+  import.meta.env.VITE_API_BASE_URL || "https://pfm-backend-0qd8.onrender.com";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
